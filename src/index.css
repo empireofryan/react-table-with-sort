@@ -1,0 +1,22 @@
+#app {
+  font-family: 'Open Sans', sans-serif;
+}
+#app .table {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+#app .table .header, #app .table .row {
+  display: flex;
+}
+#app .table .header div, #app .table .row div {
+  flex: 1;
+  padding: 0.2rem 0.4em;
+  border: 1px solid #eeeeee;
+}
+#app .table .header {
+  background-color: #eeeeee;
+}
+#app .table .header div {
+  cursor: pointer;
+}
